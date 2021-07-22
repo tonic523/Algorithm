@@ -41,3 +41,48 @@ def solution(n, arr1, arr2):
   
 </div>
 </details>
+
+<details>
+<summary>문성호</summary>
+<div markdown=“1”>
+
+ ```python
+ def binary(n,num): #10진수 -> 2진수 변환 함수
+    temp=[]
+    while True:
+        temp.append(num%2)
+        if num==1 or num==0:
+            break
+        num=num//2
+    while len(temp)!=n:
+        temp.append(0)
+    temp = temp[::-1]
+    temp = list(map(str,temp))
+    binary_num = ''.join(temp)
+    return binary_num
+
+def solution(n, arr1, arr2):
+    
+    binary_arr1=[]
+    for num in arr1:
+        binary_arr1.append(binary(n,num)) #arr1을 이진수로 변환
+        
+    binary_arr2=[]
+    for num in arr2:
+        binary_arr2.append(binary(n,num))
+    
+    bin_all = list(zip(binary_arr1,binary_arr2)) #arr2를 이진수로 변환
+    
+    answer=['']*n
+    for i,v in enumerate(bin_all):
+        for j in range(n):
+            if v[0][j]=='1' or v[1][j]=='1': #arr1과 arr2를 비교하여 answer 완성
+                answer[i]+='#'
+            else: answer[i]+=' ' #문자열에 빈 칸 더할 때 주의
+                
+    return answer
+ 
+ ```
+  
+</div>
+</details>
