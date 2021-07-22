@@ -27,7 +27,7 @@
 - 밑에 폴더 링크도 추가해주면 감사하겠습니다.^^
 - 링크 추가 방법: `[폴더이름](링크주소)`
 
-## 🔗 
+## 🔗 코딩테스트
 - **[프로그래머스](https://programmers.co.kr/learn/challenges)**
 - **[백준](https://www.acmicpc.net/)**
 
