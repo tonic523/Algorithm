@@ -15,9 +15,7 @@
 <summary>이름</summary>
 <div markdown=“1”>
 
-```python
-
-```
+ 코드블럭 
   
 </div>
 </details>
