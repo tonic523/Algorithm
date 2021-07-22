@@ -83,12 +83,14 @@ def solution(n, arr1, arr2):
     return answer
  
  ```
-<details>
-<summary></summary>
-<div markdown=“1”>  
+
 </div>
 </details>
 
+<details>
+<summary>정운산</summary>
+<div markdown=“1”>  
+ 
 ```python
 def solution(n, arr1, arr2):
     answer = []
