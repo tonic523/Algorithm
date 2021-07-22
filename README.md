@@ -15,8 +15,10 @@
 <summary>이름</summary>
 <div markdown=“1”>
 
-# 코드 블럭으로 코드 복사 붙여넣기
+```python
 
+```
+  
 </div>
 </details>
 ```
