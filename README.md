@@ -32,3 +32,4 @@
 ## 💬 문제 풀이
 - [모의고사](https://github.com/knotted-developers/Algorithm/tree/main/모의고사)
 - [신규아이디추천](https://github.com/knotted-developers/Algorithm/tree/main/신규아이디추천)
+- [비밀지도](https://github.com/knotted-developers/Algorithm/tree/main/비밀지도)
