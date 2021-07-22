@@ -10,8 +10,7 @@
 - 문제에 해당하는 폴더안에 README.md로 가서 아래 코드를 추가한다.
 - 밑에 코드를 복사 붙여넣고 이름을 수정하고 코드 블럭에 자신이 풀이한 코드를 넣으면 된다.
 ```html
-</div>
-</details>
+
 <details>
 <summary>이름</summary>
 <div markdown=“1”>
