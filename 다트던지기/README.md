@@ -1,5 +1,10 @@
 [문제보기](https://programmers.co.kr/learn/courses/30/lessons/17682/solution_groups?language=python3)
 
+--------
+**키워드**  
+문자열, 정규표현식
+
+
 <details>
 <summary>문성호</summary>
 <div markdown=“1”>
