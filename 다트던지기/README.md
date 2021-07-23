@@ -6,7 +6,9 @@
 
 ```python
   
-def solution(dartResult):
+# 1차실패 : 옵션이 없는 경우 ' '를 추가해서, point/bonus/option을 리스트에 나눠담으려했으나 구현 실패
+  
+def solution(dartResult): 
     # i=2
     # for i in range(len(dartResult)):
     #     if dartResult[i].isdigit() and dartResult[i-1].isalpha():
@@ -17,7 +19,12 @@ def solution(dartResult):
     # point = [result for result in dartResult if result.isdigit()]
     # bonus = [result for result in dartResult if result.isalpha()]
     # option = [result for result in dartResult if result in ['*','#',' ']]
-    
+ 
+  
+  -------------
+ 
+ #2차 성공(refactoring 필요..)
+  
  def solution(dartResult):
   
     while '10' in dartResult:
