@@ -54,5 +54,6 @@ def solution(dartResult):
 ```
   
 </div>
+</details>
 
-[뒤로]()
+[뒤로](https://github.com/knotted-developers/Algorithm/blob/main/README.md)
