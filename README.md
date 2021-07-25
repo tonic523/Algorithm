@@ -38,3 +38,4 @@
 - [거리두기 확인하기](https://github.com/knotted-developers/Algorithm/tree/main/거리두기%20확인하기)
 - [문자열 압축](https://github.com/knotted-developers/Algorithm/tree/main/문자열%20압축)
 - [다트던지기](https://github.com/knotted-developers/Algorithm/blob/main/%EB%8B%A4%ED%8A%B8%EB%8D%98%EC%A7%80%EA%B8%B0/README.md)
+- [다음 큰 숫자](https://github.com/knotted-developers/Algorithm/tree/main/%EB%8B%A4%EC%9D%8C%20%ED%81%B0%20%EC%88%AB%EC%9E%90)
