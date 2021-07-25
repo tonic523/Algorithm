@@ -1,5 +1,7 @@
 ## 타겟 넘버
 
+문제 링크 : [타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
+
 <details>
 <summary>정운산</summary>
 <div markdown=“1”>
