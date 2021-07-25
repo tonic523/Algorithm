@@ -1,8 +1,11 @@
 [문제보기](https://programmers.co.kr/learn/courses/30/lessons/17682/solution_groups?language=python3)
 
 --------
-**키워드**  
-해쉬, 문자열, 정규표현식
+**키워드**
+- 구현
+- 해쉬
+- 문자열
+- 정규표현식
 
 --------
 
