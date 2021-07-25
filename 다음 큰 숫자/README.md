@@ -14,7 +14,6 @@
     for i in range(n+1, int(bin_, 2)+1):
         if bin(i)[2:].count("1") == bin_number.count("1"):
             return i
-            break
 ```
   
 </div>
