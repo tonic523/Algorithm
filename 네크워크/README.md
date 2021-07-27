@@ -4,7 +4,7 @@
 <summary>정운산</summary>
 <div markdown=“1”>
 
-```
+```python
 from collections import deque
 
 def bfs(idx, computers, n, visited):
