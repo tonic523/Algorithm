@@ -6,19 +6,19 @@
 수는 없습니다.
 예를 들어 그림의 B는 그림 A의 게임에서 HAPPY 단어를 찾은 결과를 보여줍니다.
 
-**그림 A**
-H R L P M
-X A R E T
-G I P E T
-X T N P Y
-X O Q R Y
+**그림 A**</br>
+H R L P M</br>
+X A R E T</br>
+G I P E T</br>
+X T N P Y</br>
+X O Q R Y</br>
 
-**그림 B**
-H - - - -
-\- A - - -
-\- - P - -
-\- - - P -
-\- - - - Y
+**그림 B**</br>
+H - - - -</br>
+\- A - - -</br>
+\- - P - -</br>
+\- - - P -</br>
+\- - - - Y</br>
 
 **입력**
 입력 첫 줄 : 테스트 케이스의 수 C(C <= 50)
@@ -32,19 +32,21 @@ H - - - -
 각 줄에는 찾을 단어를 입력에 주어진 순서대로 출력
 해당 단어를 찾을 수 있을 경우 YES, 아닐 경우 NO 단어 옆에 출력
 
-**예제 입력**
-1
-HRLPM
-XARET
-GIPET
-XTNPY
-XOQRY
-3
-HAPPY
-PET
-SAD
+**예제 입력**</br>
 
-**예제 출력**
-HAPPY YES
-PET YES
-SAD NO
+1</br>
+HRLPM</br>
+XARET</br>
+GIPET</br>
+XTNPY</br>
+XOQRY</br>
+
+3</br>
+HAPPY</br>
+PET</br>
+SAD</br>
+
+**예제 출력**</br>
+HAPPY YES</br>
+PET YES</br>
+SAD NO</br>
