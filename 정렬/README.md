@@ -2,6 +2,20 @@
 > 데이터를 특정한 기준에 따라서 순서대로 나열하는 것
 015432 → 012345
 
+<details>
+<summary>라이브러리</summary>
+<div markdown=“1”>
+
+>  리스트 내에 튜플 값마다 정렬을 해야할 때
+
+```python
+students = [(60,70,80,"wooseok"),(80,70,60,"gildong")]
+students.sort(key=lambda x: (-x[1],x[2],-x[3],x[0]))
+```
+  
+</div>
+</details>
+
 4가지 정렬 방법으로 오름차순을 예시로 작성했습니다.
 - 선택 정렬
 - 삽입 정렬
