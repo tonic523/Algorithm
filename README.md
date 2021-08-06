@@ -36,3 +36,4 @@
 - [BFS](https://github.com/tonic523/Algorithm/tree/main/BFS)
 - [구현](https://github.com/tonic523/Algorithm/tree/main/%EA%B5%AC%ED%98%84)
 - [정렬](https://github.com/tonic523/Algorithm/tree/main/%EC%A0%95%EB%A0%AC)
+- [이진탐색](https://github.com/tonic523/Algorithm/tree/main/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89)
