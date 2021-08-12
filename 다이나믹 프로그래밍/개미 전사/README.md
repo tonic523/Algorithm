@@ -33,7 +33,7 @@
 N = int(input())
 arr = list(map(int, input().split()))
 pre_max = arr[0]
-cur_max = arr[1]
+cur_max = max(pre_max, arr[1])
 
 for n in range(2, N):
     pre_max, cur_max = cur_max, pre_max + arr[n]
