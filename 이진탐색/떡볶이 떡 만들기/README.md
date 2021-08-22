@@ -74,14 +74,14 @@ print(H)
 def binary_search(array,M,start,end):
   result = 0
   while(start <= end):
-    total = 0
+    time = 0
     mid = (start+end)//2
     # 중간값으로 떡을 잘랐을 때 총 길이 계산
     for a in array:
       if a-mid > 0:
-        total += a-mid
+        time += a-mid
     # 떡의 총 길이가 요구하는 길이보다 작을 때
-    if total < M:
+    if time < M:
       end = mid - 1
     # 떡의 총 길이가 요구하는 길이가 같거나 클 때
     else:
