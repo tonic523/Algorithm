@@ -1,0 +1,15 @@
+import sys
+
+li = []
+result = 1
+for _ in range(int(input())):
+    s,e = map(int, sys.stdin.readline().rstrip().split())
+    li.append((s,e))
+li.sort(key = lambda x: (x[1], x[0]))
+start, end = li[0]
+for i in range(1, len(li)):
+    t_start, t_end = li[i]
+    if t_start >= end:
+        end = t_end
+        result += 1
+print(result)
