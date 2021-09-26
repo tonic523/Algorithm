@@ -1,9 +1,14 @@
+import sys
+
+input = sys.stdin.readline
+
 N = int(input())
+dp = [0] * (N+1)
+dp[1] = 1
+if N > 1:
+    dp[2] = 3
 
-d = [0] * 1001
-d[1] = 1
-d[2] = 3
-for n in range(3, N+1):
-    d[n] = d[n-1] + d[n-2] * 2
+for i in range(3, N + 1):
+    dp[i] = dp[i-1] + dp[i-2] * 2
 
-print(d[N])
+print(dp[N] % 10007)
