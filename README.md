@@ -13,6 +13,7 @@
 - [뱀과 사다리 게임](https://www.acmicpc.net/problem/16928)
 - [리모컨](https://www.acmicpc.net/problem/1107)
 - [AC](https://www.acmicpc.net/problem/5430)
+- [DSLR](https://www.acmicpc.net/problem/9019)
 
 ## 🧐 풀이한 문제 작성 방법
 - 만약 문제 폴더가 없거나 추가로 넣고 싶으면 홈에서 Add file -> Create New File 을 누른다.
