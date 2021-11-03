@@ -21,7 +21,6 @@ def solve(s, size):
     n_s += now
     return len(n_s)
 
-
 def solution(s):
     answer = 1000
     if len(s) == 1:
