@@ -1,8 +1,6 @@
 import sys
-import time
 
 input = sys.stdin.readline
-
 
 N = int(input())
 answer = 0
@@ -19,7 +17,6 @@ def validate(c, row):
 
 def dfs(row):
     if len(row) == N:
-        print(len(row), row)
         global answer
         answer += 1
         return
@@ -28,7 +25,6 @@ def dfs(row):
             if validate(i, row):
                 dfs(row + [i])
 
-start = time.time()
 for i in range(N):
     dfs([i])
-print(cnt, answer, "time :", time.time() - start)
+print(answer)
