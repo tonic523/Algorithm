@@ -18,7 +18,7 @@ def matrix_multiply(matrix1, matrix2):
     for k in range(n):
         for i in range(n):
             for j in range(n):
-                result[i][j] += (matrix1[i][k] * matrix2[k][j]) % 1000
+                result[i][j] += matrix1[i][k] * matrix2[k][j]
                 result[i][j] %= 1000
     return result
 
