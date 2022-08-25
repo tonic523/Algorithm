@@ -16,3 +16,7 @@ https://www.acmicpc.net/problem/21938
      - r, c의 위치에서 4방향인 (r+1, c), (r-1, c), (r, c+1), (r, c-1)을 순회하며 True인지 확인한다.
        - True이면 해당 원소를 False로 바꾸고 앞에 과정을 반복한다.
 3. 결과값을 출력한다.
+
+### 이슈
+- 재귀를 사용하니 `RecursiveError` 가 발생했다.
+  - `sys.setrecursionlimit(10**6)` 로 재귀의 제한을 풀어주었다.
